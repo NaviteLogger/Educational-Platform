@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NaviteLogger/Educational-Platform/issues"
   },
-  "homepage": "https://github.com/NaviteLogger/Educational-Platform#readme"
+  "homepage": "https://github.com/NaviteLogger/Educational-Platform#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
