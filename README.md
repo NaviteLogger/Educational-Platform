@@ -111,17 +111,17 @@ Suggested structure of the project:
 - │   │   └── ...
 - │   │
 - │   ├── app2/
-│   │   └── ...
-│   └── ...
-│
-├── config/
-│   ├── settings/
-│   │   ├── __init__.py
-│   │   ├── base.py       # Base configurations
-│   │   ├── local.py      # Local development configurations
-│   │   ├── prod.py       # Production configurations
-│   │   └── staging.py    # Staging configurations
-│   │
+- |   │   └── ...
+- │   └── ...
+- │
+- ├── config/
+- │   ├── settings/
+- │   │   ├── __init__.py
+- │   │   ├── base.py       # Base configurations
+- │   │   ├── local.py      # Local development configurations
+- │   │   ├── prod.py       # Production configurations
+- │   │   └── staging.py    # Staging configurations
+- │   │
 - │   ├── __init__.py
 - │   ├── asgi.py
 - │   ├── urls.py
