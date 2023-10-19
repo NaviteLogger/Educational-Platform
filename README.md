@@ -95,55 +95,55 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Acknowledgements
 
-Suggested structure of the project: [Django Project Template](
-    myproject/
-│
-├── apps/
-│   ├── app1/
-│   │   ├── migrations/
-│   │   ├── static/
-│   │   ├── templates/
-│   │   ├── admin.py
-│   │   ├── apps.py
-│   │   ├── models.py
-│   │   ├── tests.py
-│   │   ├── views.py
-│   │   └── ...
-│   │
-│   ├── app2/
-│   │   └── ...
-│   └── ...
-│
-├── config/
-│   ├── settings/
-│   │   ├── __init__.py
-│   │   ├── base.py       # Base configurations
-│   │   ├── local.py      # Local development configurations
-│   │   ├── prod.py       # Production configurations
-│   │   └── staging.py    # Staging configurations
-│   │
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── urls.py
-│   ├── wsgi.py
-│   └── ...
-│
-├── static/
-│   ├── css/
-│   ├── images/
-│   ├── js/
-│   └── ...
-│
-├── templates/
-│   ├── base.html
-│   ├── 404.html
-│   ├── 500.html
-│   └── ...
-│
-├── media/                 # For user-uploaded files
-│
-├── .gitignore
-├── manage.py
-├── requirements.txt       # List of project dependencies
-└── README.md
-)
+Suggested structure of the project:
+-     myproject/
+- │
+- ├── apps/
+- │   ├── app1/
+- │   │   ├── migrations/
+- │   │   ├── static/
+- │   │   ├── templates/
+- │   │   ├── admin.py
+- │   │   ├── apps.py
+- │   │   ├── models.py
+- │   │   ├── tests.py
+- │   │   ├── views.py
+- │   │   └── ...
+- │   │
+- │   ├── app2/
+- |   │   └── ...
+- │   └── ...
+- │
+- ├── config/
+- │   ├── settings/
+- │   │   ├── __init__.py
+- │   │   ├── base.py       # Base configurations
+- │   │   ├── local.py      # Local development configurations
+- │   │   ├── prod.py       # Production configurations
+- │   │   └── staging.py    # Staging configurations
+- │   │
+- │   ├── __init__.py
+- │   ├── asgi.py
+- │   ├── urls.py
+- │   ├── wsgi.py
+- │   └── ...
+- │
+- ├── static/
+- │   ├── css/
+- │   ├── images/
+- │   ├── js/
+- │   └── ...
+- │
+- ├── templates/
+- │   ├── base.html
+- │   ├── 404.html
+- │   ├── 500.html
+- │   └── ...
+- │
+- ├── media/                 # For user-uploaded files
+- │
+- ├── .gitignore
+- ├── manage.py
+- ├── requirements.txt       # List of project dependencies
+- └── README.md
+
